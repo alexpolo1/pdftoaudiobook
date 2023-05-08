@@ -5,7 +5,7 @@ import pygame
 import pyttsx3
 import PyPDF2
 
-# Global variable to store the current chapter number
+## Global variable to store the current chapter number
 current_chapter = 1
 output_dir = "audiobook"
 
