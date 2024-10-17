@@ -1,6 +1,0 @@
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_1_Red Hat Enterprise Linux 93 RH134.mp3'
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_2_Red Hat System Administration II.mp3'
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_3_Edition 1.mp3'
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_4_Red Hat System.mp3'
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_5_Administration II.mp3'
-file '/home/alex/git/pdftoaudiobook/output/audio_files/chapter_6_RH134RHEL93en120240717.mp3'
