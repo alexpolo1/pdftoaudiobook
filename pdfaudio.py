@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#start of script
 import os
 import sys
 import argparse
