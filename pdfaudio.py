@@ -1,6 +1,9 @@
 import fitz  # PyMuPDF
+import pyttsx3
 import subprocess
 import os
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
 # Function to extract TOC and split PDF into text by chapter
 def extract_toc_and_text(pdf_file):
@@ -25,10 +28,11 @@ def extract_toc_and_text(pdf_file):
     
     return chapters
 
-# Function to convert text to speech using TTS
+# Function to convert text to speech using pyttsx3
 def text_to_speech(text, output_file):
-    tts_command = ["tts", "--text", text, "--out_path", output_file]
-    subprocess.run(tts_command)
+    engine = pyttsx3.init()
+    engine.save_to_file(text, output_file)
+    engine.runAndWait()
 
 # Function to create chapter metadata
 def create_chapters_metadata(chapters):
@@ -54,14 +58,25 @@ def merge_audio_with_chapters(chapter_files):
     subprocess.run(["ffmpeg", "-i", "audiobook.mp3", "-i", "chapters.txt", "-map_metadata", "1", "-codec", "copy", "audiobook_with_chapters.mp3"])
 
 # Main function to run the whole process
-def process_pdf_to_audiobook(pdf_file):
+def process_pdf_to_audiobook():
+    # Set the Downloads directory as default
+    downloads_folder = os.path.expanduser("~/Downloads")
+    
+    # Use tkinter to open a file dialog in the Downloads folder
+    Tk().withdraw()  # We don't want a full GUI, so keep the root window from appearing
+    pdf_file = askopenfilename(title="Select PDF file", initialdir=downloads_folder, filetypes=[("PDF files", "*.pdf")])
+    
+    if not pdf_file:
+        print("No file selected, exiting.")
+        return
+    
     # Step 1: Extract TOC and Text
     chapters = extract_toc_and_text(pdf_file)
 
     # Step 2: Convert text to speech for each chapter
     chapter_audio_files = []
     for i, (chapter_title, chapter_text) in enumerate(chapters):
-        chapter_audio_file = f"chapter_{i+1}.wav"
+        chapter_audio_file = f"chapter_{i+1}.mp3"
         text_to_speech(chapter_text, chapter_audio_file)
         chapter_audio_files.append(chapter_audio_file)
 
@@ -72,8 +87,7 @@ def process_pdf_to_audiobook(pdf_file):
     merge_audio_with_chapters(chapter_audio_files)
 
 # Example usage
-pdf_file = "yourfile.pdf"
-process_pdf_to_audiobook(pdf_file)
+process_pdf_to_audiobook()
 
 # Clean up temporary files (optional)
 for file in os.listdir():
