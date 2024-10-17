@@ -1,0 +1,54 @@
+Document Conventions                                                                                                    xi
+Admonitions ............................................................................................................  xi
+Inclusive Language ..................................................................................................  xii
+Introduction                                                                                                                  xiii
+Red Hat System Administration II ..............................................................................  xiii
+Orientation to the Classroom Environment ................................................................. xiv
+Performing Lab Exercises .......................................................................................  xviii
+1. Improve Command-line Productivity                                                                              1
+Write Simple Bash Scripts .........................................................................................  2
+Guided Exercise: Write Simple Bash Scripts .................................................................. 6
+Loops and Conditional Constructs in Scripts ................................................................ 9
+Guided Exercise: Loops and Conditional Constructs in Scripts ........................................ 15
+Match Text in Command Output with Regular Expressions ............................................  17
+Guided Exercise: Match Text in Command Output with Regular Expressions ....................  26
+Lab: Improve Command-line Productivity ..................................................................  29
+Summary ..............................................................................................................  35
+2. Schedule Future Tasks                                                                                                37
+Schedule a Deferred User Job ................................................................................  38
+Guided Exercise: Schedule a Deferred User Job ......................................................... 40
+Schedule Recurring User Jobs ................................................................................  43
+Guided Exercise: Schedule Recurring User Jobs .........................................................  46
+Schedule Recurring System Jobs ............................................................................. 49
+Guided Exercise: Schedule Recurring System Jobs ...................................................... 52
+Manage Temporary Files .........................................................................................  55
+Guided Exercise: Manage Temporary Files .................................................................  58
+Quiz: Schedule Future Tasks .....................................................................................  61
+Summary ..............................................................................................................  65
+3. Analyze and Store Logs                                                                                               67
+Describe System Log Architecture ...........................................................................  68
+Quiz: Describe System Log Architecture .................................................................... 70
+Review Syslog Files ................................................................................................  74
+Guided Exercise: Review Syslog Files ......................................................................... 79
+Review System Journal Entries .................................................................................  81
+Guided Exercise: Review System Journal Entries ......................................................... 87
+Preserve the System Journal ..................................................................................  90
+Guided Exercise: Preserve the System Journal ...........................................................  93
+Maintain Accurate Time ..........................................................................................  96
+Guided Exercise: Maintain Accurate Time .................................................................  100
+Lab: Analyze and Store Logs ................................................................................... 104
+Summary ............................................................................................................. 109
+4. Archive and Transfer Files                                                                                           111
+Manage Compressed tar Archives ............................................................................  112
+Guided Exercise: Manage Compressed tar Archives ..................................................... 117
+Transfer Files Between Systems Securely .................................................................. 119
+Guided Exercise: Transfer Files Between Systems Securely ..........................................  122
+Synchronize Files Between Systems Securely ............................................................ 125
+Guided Exercise: Synchronize Files Between Systems Securely ....................................  128
+Lab: Archive and Transfer Files .................................................................................  131
+Summary .............................................................................................................  136
+5. Tune System Performance                                                                                         137
+Adjust Tuning Profiles ............................................................................................  138
+Guided Exercise: Adjust Tuning Profiles ....................................................................  145
+RH134-RHEL9.3-en-1-20240717
+vii

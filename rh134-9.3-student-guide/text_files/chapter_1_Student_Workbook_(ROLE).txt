@@ -1,0 +1,44 @@
+Red Hat Enterprise Linux 9.3 RH134
+Red Hat System Administration II
+Edition 1 20240717
+Publication date 20240717
+Authors:
+Ashish Lingayat, Alejandra Ramírez Palacios, Alex Callejas,
+Antonio Marí Romero, Bernardo Gargallo, Dallas Spohn, Ed Parenti,
+Jacob Pelchat, Mike Kelly, Morgan Weetman, Patrick Gomez,
+Shreya Dhange
+Course Architects:
+Philip Sweany, Steven Bonneville
+DevOps Engineers:
+Artur Glogowski, Trey Feagle
+Editors:
+Julian Cable, Rachel Lee
+© 2024 Red Hat, Inc.
+The contents of this course and all its modules and related materials, including handouts to audience members, are ©
+2024 Red Hat, Inc.
+No part of this publication may be stored in a retrieval system, transmitted or reproduced in any way, including, but
+not limited to, photocopy, photograph, magnetic, electronic or other record, without the prior written permission of
+Red Hat, Inc.
+This instructional program, including all material provided herein, is supplied without any guarantees from Red Hat,
+Inc. Red Hat, Inc. assumes no liability for damages or legal action arising from the use or misuse of contents or details
+contained herein.
+If you believe Red Hat training materials are being used, copied, or otherwise improperly distributed, please send
+email to training@redhat.com [mailto:training@redhat.com] or phone toll-free (USA) +1 (866) 626-2994 or +1 (919)
+754-3700.
+Red Hat, Red Hat Enterprise Linux, the Red Hat logo, JBoss, OpenShift, Fedora, Hibernate, Ansible, RHCA, RHCE,
+RHCSA, Ceph, and Gluster are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries in the United
+States and other countries.
+Linux® is the registered trademark of Linus Torvalds in the United States and other countries.
+Java® is a registered trademark of Oracle American, Inc. and/or its affiliates.
+XFS® is a registered trademark of Hewlett Packard Enterprise Development LP or its subsidiaries in the United
+States and/or other countries.
+MySQL® is a registered trademark of MySQL AB in the United States, the European Union and other countries.
+Node.js® is a trademark of Joyent. Red Hat is not formally related to or endorsed by the official Joyent Node.js open
+source or commercial project.
+The OpenStack word mark and the Square O Design, together or apart, are trademarks or registered trademarks
+of OpenStack Foundation, in the United States and other countries and are used with the OpenStack Foundation's
+permission. Red Hat, Inc. is not affiliated with, endorsed by, or sponsored by the OpenStack Foundation or the
+OpenStack community.
+All other trademarks are the property of their respective owners.
+Contributors:Adarsh Krishnan, David Sacco, Hemant Chauhan, Jonika Shank, Roberto Velazquez,
+Sajith Eyamkuzhy, Samik Sanyal, Shashi Singh, Yuvaraj Balaraju

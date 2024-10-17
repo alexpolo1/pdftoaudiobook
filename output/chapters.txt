@@ -1,0 +1,38 @@
+;FFMETADATA1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=7
+title=chapter_1_Red Hat Enterprise Linux 93 RH134
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7
+END=14
+title=chapter_2_Red Hat System Administration II
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14
+END=21
+title=chapter_3_Edition 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=21
+END=28
+title=chapter_4_Red Hat System
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28
+END=198392
+title=chapter_5_Administration II
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=198392
+END=61627290
+title=chapter_6_RH134RHEL93en120240717
+
